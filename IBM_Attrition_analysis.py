@@ -206,15 +206,8 @@ def data_analysis():
 
 
 
-# #data_wrangling()
+data_wrangling()
 data_analysis()
-# data_analysis2()
-# data_analysis3(job_satisfaction_number_of_exits)
-# data_analysis4(new_joinee_attrition)
-# data_analysis5(career_growth_attrition)
-# data_analysis6(salary_hikes_attrition)
-
-
 
 
 

@@ -26,7 +26,7 @@ def data_wrangling():
     #Checking for duplicate values
     print(df.duplicated().sum())
     #Dropping the columns that are not required
-    df.drop('DailyRate','Education','RelationshipSatisfaction','EmployeeNumber','MaritalStatus',axis=1,inplace=True)
+    df.drop(['DailyRate','Education','RelationshipSatisfaction','EmployeeNumber','MaritalStatus'],axis=1,inplace=True)
 
 
 # Data Analysis

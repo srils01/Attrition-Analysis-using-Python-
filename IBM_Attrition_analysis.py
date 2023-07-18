@@ -218,8 +218,12 @@ def data_analysis():
 
 
 
-data_wrangling()
-data_analysis()
+# data_wrangling()
+# data_analysis()
+
+
+
+
 
 
 

@@ -7,7 +7,7 @@ import plotly as plty
 import plotly.express as px
 
 # Reading the file
-df=pd.read_csv("/Users/harishsarvepalli/Github_projects/ds_salaries 2.csv")
+df=pd.read_csv("/Users/harishsarvepalli/Github_projects/Data Science Jobs Salaries.csv")
 print(df)
 print(df.columns.values)
 
@@ -54,7 +54,7 @@ plt.show()
 table=pd.pivot_table(data=df,index=["job_title"],columns=["company_location"],values=["salary_in_usd"],aggfunc='max')
 print(table)
 print(df.salary_in_usd.max())
-print(df.loc[252,'company_location'])
+print(df.loc[193,'company_location'])
 print("US pays the highest for Principal Data Engineer")
 
 # Result by running the above code- US

@@ -4,7 +4,15 @@ The goal of this project is to uncover the factors that lead to employee attriti
 Datasets
 This is a fictional dataset created by IBM data scientists collected from Kaggle. https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset
 
-This dataset has 35 features in total. We did Exploratory Data Analysis first by plotting the most possible features with respect to attrition to see the correlation.
+This dataset has 35 features in total. I did Exploratory Data Analysis first by plotting the most possible features with respect to attrition to see the correlation. The user at the end can choose to select the options from below after which the charts and graphs appear along with insights derived from the data.
+
+    " Enter 1 for attrition- department wise"
+    "Enter 2 for gender wise Attrition"
+    "Enter 3 for Job satisfaction vs number of exits"
+    "Enter 4 for Tenure wise attrition"
+    "Enter 5 for career growth vs number of exits"
+    "Enter 6 for Salary hikes vs number of exits"
+    "Enter 7 for Salary hikes vs tenure ")
 
 Libraries used:
 
